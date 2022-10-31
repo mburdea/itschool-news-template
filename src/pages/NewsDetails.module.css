@@ -1,0 +1,8 @@
+.newsDetails {
+  text-align: left;
+}
+
+.newsDetails img {
+  max-width: 100%;
+  height: auto;
+}

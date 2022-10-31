@@ -2,9 +2,11 @@ import React from "react";
 import styles from "./Page404.module.css";
 import Container from "react-bootstrap/Container";
 
+import Layout from '../components/Layout';
+
 function Page404() {
   return (
-    <div
+    <Layout
       className={`${styles.page404} bg-primary text-white d-flex flex-column justify-content-center align-items-center`}
     >
       <Container className="d-flex flex-column justify-content-center align-items-center">
@@ -17,7 +19,7 @@ function Page404() {
           Hai înapoi pe site să vezi o nouă știre!
         </p>
       </Container>
-    </div>
+    </Layout>
   );
 }
 
